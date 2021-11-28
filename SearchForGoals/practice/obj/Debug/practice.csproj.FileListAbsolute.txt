@@ -1,0 +1,14 @@
+C:\Users\danie\source\repos\practice\practice\bin\Debug\practice.exe.config
+C:\Users\danie\source\repos\practice\practice\bin\Debug\practice.exe
+C:\Users\danie\source\repos\practice\practice\bin\Debug\practice.pdb
+C:\Users\danie\source\repos\practice\practice\obj\Debug\practice.csprojAssemblyReference.cache
+C:\Users\danie\source\repos\practice\practice\obj\Debug\practice.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\practice\practice\obj\Debug\practice.exe
+C:\Users\danie\source\repos\practice\practice\obj\Debug\practice.pdb
+C:\Users\danie\source\repos\practiceUppgift5\practice\bin\Debug\practice.exe.config
+C:\Users\danie\source\repos\practiceUppgift5\practice\bin\Debug\practice.exe
+C:\Users\danie\source\repos\practiceUppgift5\practice\bin\Debug\practice.pdb
+C:\Users\danie\source\repos\practiceUppgift5\practice\obj\Debug\practice.csprojAssemblyReference.cache
+C:\Users\danie\source\repos\practiceUppgift5\practice\obj\Debug\practice.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\practiceUppgift5\practice\obj\Debug\practice.exe
+C:\Users\danie\source\repos\practiceUppgift5\practice\obj\Debug\practice.pdb
