@@ -1,7 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace practice
@@ -11,14 +13,15 @@ namespace practice
         static void Main(string[] args)
         {
             bool enBoool = true;
-            
+
             string[] miArray = new string[4];
             while (enBoool == true)
             {
-                Console.WriteLine("Choose an option.");
-                Console.WriteLine("1.Write what you want in life 4 things.");
-                Console.WriteLine("2.List the things out.");
-                Console.WriteLine("3.Serch for your goals.");
+                Console.WriteLine("Choose an option.".PadLeft(10));
+                Console.WriteLine("1.Write what you want in life 4 things.".PadLeft(10));
+                Console.WriteLine("2.List the things out.".PadLeft(10));
+                Console.WriteLine("3.Serch for your goals.".PadLeft(10));
+                Console.WriteLine("4.Quit");
 
                 int userChoise;
 
@@ -47,23 +50,35 @@ namespace practice
 
                             foreach (var item in miArray)
                             {
-                                if (searches.ToUpper() == item.ToUpper())
+                                if (searches.ToLower().Contains(item))
                                 {
                                     Console.WriteLine(item + " Was found!");
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Sorry could not find your item");
                                 }
                             }
-
+                            Thread.Sleep(4000);
+                            Console.Clear();
                             break;
 
+                        case 4:
+                            enBoool = false;
+                            Console.WriteLine("Thanks for trying this console App out!");
+                            Thread.Sleep(3000);
+                            
+                            break;
                         default:
-                            Console.WriteLine("Choose from the menu!");
+                            Console.WriteLine("Choose from the three options!");
                             break;
                     }
 
                 }
                 else
                 {
-                    Console.WriteLine("I dont understand, pls press 1 or 2!");
+                    Console.WriteLine("I dont understand, pls press 1 to enter your wishes!");
                 }
             }
         }
